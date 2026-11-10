@@ -1,0 +1,11 @@
+{
+  "name": "ataturk",
+  "owner": { "name": "suavi-yildirim" },
+  "plugins": [
+    {
+      "name": "ataturk",
+      "source": "./",
+      "description": "Atatürk'ün belgelenmiş söz ve ilkelerinden yararlanan Türkçe skill'ler."
+    }
+  ]
+}
