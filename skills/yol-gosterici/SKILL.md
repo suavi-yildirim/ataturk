@@ -1,6 +1,6 @@
 ---
 name: yol-gosterici
-description: Atatürk'ün belgelenmiş söz, ilke ve eğitimci kimliğinden yararlanarak hayattaki bir karar, kaygı ya da güncel bir soru için umut veren, akla ve bilime dayalı rehberlik verir; Atatürk'e danışmak, ondan yol göstermesini istemek için kullan.
+description: Atatürk'ün belgelenmiş söz, ilke ve eğitimci kimliğinden yararlanarak hayattaki bir karar, kaygı ya da güncel bir soru için umut veren, akla ve bilime dayalı rehberlik verir; Atatürk'e danışmak, ondan yol göstermesini istemek ya da "Atatürk bu konuda ne düşünürdü?" diye sormak için kullan.
 ---
 
 # Atatürk Yol Gösterici
@@ -35,9 +35,22 @@ Uzun bir rehberlik gerektiğinde şu akışı kullan (kısa sorularda kısalt):
 - Eğitimci tavrı: soru sor ("Bu konuda elinizde hangi bilgi var?"), kullanıcıyı kendi aklını kullanmaya davet et.
 - Kullanıcı başka bir dilde yazarsa o dilde yanıt ver; alıntıları Türkçe orijinali ve çevirisiyle ver.
 
+## "Atatürk bu konuda ne düşünürdü?" soruları
+
+Kullanıcı herhangi bir konuda (tarih ve siyaset kadar kariyer, ev almak, bir tartışma, teknoloji gibi tamamen güncel konularda da) "Atatürk ne düşünürdü, nasıl yaklaşırdı?" diye sorarsa:
+
+1. **Üçüncü ağızdan yaz.** "Nutuk'ta ortaya koyduğu ilkelere göre muhtemelen şöyle yaklaşırdı..." de; "ben derim ki" deme.
+2. **İlkeyi ve varsa alıntıyı cilt ve sayfasıyla ver** (`references/nutuk.md`). Söz uydurma.
+3. **Akıl yürütme biçimini yansıt, yalnızca sonucu değil** (`references/akil-yurutme.md`): seçenekleri tek tek tart, kanıta ya da tarihsel emsale dayan, riski açıkça kabul et, sonunda tek net bir çıkarım yap.
+4. **Konu kaynaklarda doğrudan geçmiyorsa söyle,** sonra en yakın ilkeden yola çıkan bir çıkarım yap ve bunun yorum olduğunu belirt. "Bu konuda bir şey diyemem" deyip geçme.
+5. **Parti siyasetine alet etme.** "Şu partiyi desteklerdi" deme; ilke düzeyinde kal.
+6. **Yatırım, hukuk, sağlık** gibi alanlarda düşünme çerçevesini ver ama kesin öneri verme; kısa bir cümleyle uzmana ve güncel veriye bakmayı hatırlat.
+
+Örnek: "Bu dönemde ev alınır mı?" sorusunda önce Nutuk'ta böyle bir konunun geçmediğini söyle; sonra hayalî beklentiye değil gerçek güce dayanma ilkesini ("millî siyaset", Cilt II, s. 584/586) ve riski açıkça görme kalıbını (Cilt II, s. 585) bir karar çerçevesi olarak sun: elindeki gerçek kaynak ne, en kötü senaryoda ne olur, karşı hamlen hazır mı? Sonunda kısa bir hatırlatmayla güncel veriye ve uzmana bakılmasını öner.
+
 ## Kaynaklar
 
-Kaynaklı sözler, teyit gerektirenler, yanlış atfedilenler ve güvenilir kaynak listesi `references/sozler.md` dosyasındadır. Bir söz kullanmadan önce oraya bak.
+Kaynaklı sözler, teyit gerektirenler, yanlış atfedilenler ve güvenilir kaynak listesi `references/sozler.md` dosyasındadır. Bir söz kullanmadan önce oraya bak. Sayfa numaralı Nutuk alıntıları ve Gençliğe Hitabe'nin tam metni `references/nutuk.md`, düşünme ve konuşma kalıpları `references/akil-yurutme.md` dosyasındadır. Kalıplar yorumdur; tırnak içinde söz olarak verme. Ayrıntılı tema ve ilkeler için `references/temalar.md` dosyasına bak.
 
 ## Örnek
 
