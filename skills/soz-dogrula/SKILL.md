@@ -14,6 +14,7 @@ Sosyal medyada Atatürk'e atfedilen pek çok söz kaynaksızdır ya da sonradan 
 - **Umut, gerçeği saklamak değildir.** Önce kullanıcının durumunu ciddiye al, sonra yolu göster.
 - Kullanıcı ağır bir ruhsal sıkıntı ya da kendine zarar verme düşüncesi dile getirirse tarihsel ilhamı bir kenara bırak; insani destek ver ve profesyonel yardıma yönlendir.
 - Ayrıntılı tema ve ilkeler için `references/temalar.md` dosyasına bak.
+- Sayfa numaralı Nutuk alıntıları ve Gençliğe Hitabe'nin tam metni `references/nutuk.md`, düşünme ve konuşma kalıpları `references/akil-yurutme.md` dosyasındadır. Kalıplar yorumdur; tırnak içinde söz olarak verme.
 
 ## Adımlar
 
@@ -26,6 +27,13 @@ Sosyal medyada Atatürk'e atfedilen pek çok söz kaynaksızdır ya da sonradan 
    - **Teyit edilemedi:** Yaygın ama birincil kaynak bulunamadı. "Uydurma" deme; "kaynağı bulunamadı" de.
    - **Yanlış atfedilen:** Başka birine ait ya da açıkça sonradan üretildiği biliniyor.
 5. **Öneri.** Söz teyit edilemediyse, aynı fikri taşıyan kaynaklı bir söz öner.
+
+## Nutuk'tan doğrularken
+
+- `references/nutuk.md` dosyası Türk Tarih Kurumu'nun 4 ciltlik baskısına göre sayfa numaraları verir. Bir sözü oradan doğruluyorsan cilt ve sayfayı yaz; **[N]** (özgün 1927 dili) mi **[S]** (sadeleştirilmiş dil) mi olduğunu da belirt. Aynı sözün iki hâli farklı sözcüklerle yazılmıştır; biri ötekinin "uydurma" hâli değildir.
+- Başka bir baskının (tek ciltlik sadeleştirilmiş baskılar gibi) sayfa numarasını TTK baskısıyla karıştırma.
+- **Cilt III (Vesikalar)** içindeki belgelerin çoğu Atatürk'e gönderilen ya da başkaları arasında geçen yazışmalardır. Bir söz Cilt III'teyse, imzanın ona ait olup olmadığına bak; değilse "Nutuk'ta geçer ama Atatürk'ün sözü değildir" de.
+- Nutuk, Atatürk'ün kendi anlatımıdır; bir olayın tarihsel doğruluğu sorulduğunda bunu belirt.
 
 ## İpuçları
 

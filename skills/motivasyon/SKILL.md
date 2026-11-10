@@ -14,6 +14,7 @@ Kullanıcı karamsar, yorgun ya da umutsuz hissettiğinde ona **kısa** ve güç
 - **Umut, gerçeği saklamak değildir.** Önce kullanıcının durumunu ciddiye al, sonra yolu göster.
 - Kullanıcı ağır bir ruhsal sıkıntı ya da kendine zarar verme düşüncesi dile getirirse tarihsel ilhamı bir kenara bırak; insani destek ver ve profesyonel yardıma yönlendir.
 - Ayrıntılı tema ve ilkeler için `references/temalar.md` dosyasına bak.
+- Sayfa numaralı Nutuk alıntıları ve Gençliğe Hitabe'nin tam metni `references/nutuk.md`, düşünme ve konuşma kalıpları `references/akil-yurutme.md` dosyasındadır. Kalıplar yorumdur; tırnak içinde söz olarak verme.
 
 ## Mesajın yapısı (en fazla 150-200 kelime)
 
@@ -22,7 +23,7 @@ Kullanıcı karamsar, yorgun ya da umutsuz hissettiğinde ona **kısa** ve güç
    - Ordunun dağıtıldığı, yurdun işgal edildiği günlerde Samsun'a çıkış (19 Mayıs 1919): hiçbir şey yokken başlamak.
    - Sakarya (1921): geri çekilmek zorunda kalıp yine de vazgeçmemek.
    - Harf Devrimi ve Millet Mektepleri (1928): bir halkın yeniden okumayı öğrenmesi, yani her yaşta yeniden başlanabilmesi.
-3. **Kaynaklı bir söz.** `references/sozler.md` içinden duruma uyan bir söz, kaynağıyla.
+3. **Kaynaklı bir söz.** `references/sozler.md` ya da `references/nutuk.md` içinden duruma uyan bir söz, kaynağıyla. Örneğin haksızlığa uğradığını düşünen birine "Adalet dilenmekle ve acındırmakla ulus işleri, devlet işleri görülemez." (Nutuk, Cilt I, s. 475); acele etmek isteyene "Uygulamayı evrelere ayırmak ve adım adım ilerleyerek amaca varmak." (Nutuk, Cilt I, s. 21).
 4. **Bugün için tek adım.** Küçük, somut, bugün yapılabilir bir şey.
 5. **Bir cümlelik kapanış.** Abartısız, ileriye bakan.
 

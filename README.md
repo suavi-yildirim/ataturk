@@ -16,11 +16,16 @@ Atatürk'ün belgelenmiş söz, ilke ve eğitimci kimliğinden yararlanan Türk�
 .claude-plugin/        plugin.json ve marketplace.json
 skills/<ad>/SKILL.md   her skill
 skills/<ad>/references kaynaklar/ klasöründen kopyalanan ortak dosyalar
-kaynaklar/             ortak söz listesi (sozler.md) ve temalar (temalar.md): asıl kopya
+kaynaklar/             ortak dosyaların asıl kopyası: sozler.md, temalar.md,
+                       nutuk.md (sayfa numaralı Nutuk alıntıları), akil-yurutme.md (düşünme kalıpları)
 scripts/               eşitleme ve zip betikleri
 ```
 
-Söz listesini yalnızca `kaynaklar/sozler.md` içinde düzenleyin, sonra `./scripts/sozleri-esitle.sh` çalıştırın.
+Ortak dosyaları yalnızca `kaynaklar/` içinde düzenleyin, sonra `./scripts/sozleri-esitle.sh` çalıştırın.
+
+## Teşekkür
+
+Nutuk alıntıları ve akıl yürütme kalıpları [ugurseleci/ataturk-dusunce-tarzi](https://github.com/ugurseleci/ataturk-dusunce-tarzi), Söylev ve Demeçler'den çıkarılan kalıplar [avatar-lavventura/ataturk-soylev](https://github.com/avatar-lavventura/ataturk-soylev) projelerinden uyarlanmıştır. İkisi de MIT Lisansı ile paylaşılmıştır; lisans metinleri [UCUNCU-TARAF.md](UCUNCU-TARAF.md) dosyasındadır.
 
 ## Kurulum
 
