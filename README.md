@@ -1,33 +1,44 @@
-# ataturk: Claude plugin'i
+# ataturk: a Claude plugin
 
-Atatürk'ün belgelenmiş söz, ilke ve eğitimci kimliğinden yararlanan Türkçe Claude skill'leri. Hiçbir skill söz uydurmaz; her alıntıya kaynak yazar, kaynağı teyit edilmemiş sözleri ayrıca belirtir.
+English · [Türkçe](README.tr.md)
 
-| Komut | Ne yapar |
+Mustafa Kemal Atatürk founded the modern Republic of Türkiye, and his ideas still guide the way.
+This plugin gives Claude a set of skills built on his documented words, his principles and his work
+as a teacher. No skill invents a quote: every quotation comes with its source, and sayings whose
+source could not be confirmed are marked as such.
+
+The skills are written in Turkish and answer in Turkish.
+
+| Command | What it does |
 |---|---|
-| `/ataturk:yol-gosterici` | Bir karar, kaygı ya da güncel soru için onun ilkeleriyle rehberlik |
-| `/ataturk:motivasyon` | Karamsar anlarda kısa, kaynaklı bir umut mesajı |
-| `/ataturk:egitimci` | Öğretmen ve öğrenciler için konu anlatımı, ders planı, etkinlik, tören konuşması |
-| `/ataturk:soz-dogrula` | "Atatürk bunu gerçekten söyledi mi?" sorusuna kaynaklı yanıt |
-| `/ataturk:konus` | Onun ağzından, açıkça kurgu olarak etiketlenmiş anlatım |
+| `/ataturk:yol-gosterici` | Guidance on a decision, a worry or a current question, based on his principles |
+| `/ataturk:motivasyon` | A short, sourced message of hope for a discouraged moment |
+| `/ataturk:egitimci` | For teachers and students: topic explanations, lesson plans, class activities, ceremony speeches |
+| `/ataturk:soz-dogrula` | A sourced answer to "Did Atatürk really say this?" |
+| `/ataturk:konus` | A first-person narrative in his voice, clearly labelled as fiction |
 
-## Yapı
+## Structure
 
 ```
-.claude-plugin/        plugin.json ve marketplace.json
-skills/<ad>/SKILL.md   her skill
-skills/<ad>/references kaynaklar/ klasöründen kopyalanan ortak dosyalar
-kaynaklar/             ortak dosyaların asıl kopyası: sozler.md, temalar.md,
-                       nutuk.md (sayfa numaralı Nutuk alıntıları), akil-yurutme.md (düşünme kalıpları)
-scripts/               eşitleme ve zip betikleri
+.claude-plugin/        plugin.json and marketplace.json
+skills/<name>/SKILL.md one skill each
+skills/<name>/references shared files copied from kaynaklar/
+kaynaklar/             master copy of the shared files: sozler.md (quotes), temalar.md (themes),
+                       nutuk.md (Nutuk quotations with page numbers), akil-yurutme.md (reasoning patterns)
+scripts/               sync and zip scripts
 ```
 
-Ortak dosyaları yalnızca `kaynaklar/` içinde düzenleyin, sonra `./scripts/sozleri-esitle.sh` çalıştırın.
+Edit the shared files only in `kaynaklar/`, then run `./scripts/sozleri-esitle.sh`.
 
-## Teşekkür
+## Acknowledgements
 
-Nutuk alıntıları ve akıl yürütme kalıpları [ugurseleci/ataturk-dusunce-tarzi](https://github.com/ugurseleci/ataturk-dusunce-tarzi), Söylev ve Demeçler'den çıkarılan kalıplar [avatar-lavventura/ataturk-soylev](https://github.com/avatar-lavventura/ataturk-soylev) projelerinden uyarlanmıştır. İkisi de MIT Lisansı ile paylaşılmıştır; lisans metinleri [UCUNCU-TARAF.md](UCUNCU-TARAF.md) dosyasındadır.
+The Nutuk quotations and reasoning patterns are adapted from
+[ugurseleci/ataturk-dusunce-tarzi](https://github.com/ugurseleci/ataturk-dusunce-tarzi), and the
+patterns drawn from Söylev ve Demeçler from
+[avatar-lavventura/ataturk-soylev](https://github.com/avatar-lavventura/ataturk-soylev). Both are
+shared under the MIT License; the license texts are in [UCUNCU-TARAF.md](UCUNCU-TARAF.md).
 
-## Kurulum
+## Installation
 
 **Claude Code:**
 
@@ -35,11 +46,13 @@ Nutuk alıntıları ve akıl yürütme kalıpları [ugurseleci/ataturk-dusunce-t
 /plugin install ataturk --marketplace suavi-yildirim/ataturk
 ```
 
-Eski sürümlerde:
+On older versions:
 
 ```
 /plugin marketplace add suavi-yildirim/ataturk
 /plugin install ataturk@ataturk
 ```
 
-**claude.ai:** `./scripts/zip-olustur.sh` çalıştırın; `dist/` altında her skill için ayrı bir zip oluşur (`ataturk-motivasyon.zip` gibi). Bunları **Ayarlar > Customize > Skills** bölümünden tek tek yükleyin. claude.ai'de adlar `ataturk-motivasyon` biçiminde görünür.
+**claude.ai:** run `./scripts/zip-olustur.sh`. It creates one zip per skill under `dist/`
+(for example `ataturk-motivasyon.zip`). Upload them one by one under
+**Settings > Customize > Skills**. On claude.ai the names appear as `ataturk-motivasyon`.
